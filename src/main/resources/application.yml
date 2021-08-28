@@ -1,0 +1,14 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:./appdb
+    username: sa
+  jpa:
+    generate-ddl: true
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    path: /swagger.html
